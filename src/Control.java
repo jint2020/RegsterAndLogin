@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 
 
-public class App {
+public class Control {
     private final FileHandler fh;
 
-    public App(){
+    public Control(){
         fh = new FileHandler();
     }
 
@@ -89,7 +89,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        App run = new App();
+        Control run = new Control();
         run.program();
     }
 }
